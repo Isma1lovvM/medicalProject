@@ -31,7 +31,7 @@ function Main() {
               <form action="" className="main_form">
                 <div className="form_box">
                   <GiStethoscope className="icons" />
-                  <select value="">
+                  <select value="Specialty">
                     <option name="name" id="">
                       Specialty
                     </option>
@@ -39,7 +39,7 @@ function Main() {
                 </div>
                 <div className="form_box">
                   <BsPerson className="icons" />
-                  <select value="">
+                  <select value="name">
                     <option name="name" id="">
                       Doctor’s Name
                     </option>
