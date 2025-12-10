@@ -1,0 +1,127 @@
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #e1eeff;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: 0.1s ease-in-out;
+  border-radius: 0 0 5px 5px;
+}
+
+header.scrolled {
+  border-bottom: 1px solid #0360d952;
+  box-shadow: 2px 2px 15px #0360d964;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.logo_text {
+  font-family: IBM Plex Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  color: #2e2e2e;
+}
+
+.nav_logo_span {
+  color: #0360d9;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.nav_item {
+  font-family: IBM Plex Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.nav_btns_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+}
+
+.login_btn {
+  padding: 13px 34px;
+  opacity: 1;
+  font-family: IBM Plex Sans;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #0360d9;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid #0360d9;
+}
+
+.signup_btn {
+  padding: 13px 27px;
+  font-family: IBM Plex Sans;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 50px;
+  line-height: 100%;
+  color: white;
+  border: 1px solid #0360d9;
+  background-color: #0360d9;
+}
+
+.login_btn:hover {
+  box-shadow: 0px 0px 7px #0360d97b;
+  transition: 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+
+.signup_btn:hover {
+  box-shadow: 0px 0px 7px #0360d97b;
+  transition: 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+
+.login_btn:active {
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+.signup_btn:active {
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+.active {
+  font-family: IBM Plex Sans;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  color: #0360d9;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #0360d9;
+}
+
+.isActive {
+  text-decoration: none;
+  border: none;
+  padding: 0;
+}
+
+/* .nav_item {
+  font-family: IBM Plex Sans;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+} */
