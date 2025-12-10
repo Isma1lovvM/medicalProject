@@ -80,26 +80,14 @@ header.scrolled {
   background-color: #0360d9;
 }
 
-.login_btn:hover {
-  box-shadow: 0px 0px 7px #0360d97b;
-  transition: 0.4s ease-in-out;
-  transform: scale(1.1);
-}
-
-.signup_btn:hover {
-  box-shadow: 0px 0px 7px #0360d97b;
-  transition: 0.4s ease-in-out;
-  transform: scale(1.1);
-}
-
 .login_btn:active {
-    transform: scale(0.98);
-    box-shadow: none;
+  transform: scale(0.98);
+  box-shadow: none;
 }
 
 .signup_btn:active {
-    transform: scale(0.98);
-    box-shadow: none;
+  transform: scale(0.98);
+  box-shadow: none;
 }
 
 .active {
