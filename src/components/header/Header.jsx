@@ -1,10 +1,22 @@
 import { NavLink } from "react-router-dom";
 import "./header.css";
+import { useEffect, useState } from "react";
 
 function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // 10px dan pastga tushganda "scrolled" true bo‘ladi
+      setScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <>
-      <header>
+      <header className={scrolled ? "scrolled" : ""}>
         <div className="container">
           <nav className="navbar">
             <NavLink className={"isActive"} to={"/"}>

@@ -5,6 +5,13 @@ header {
   top: 0;
   left: 0;
   z-index: 999;
+  transition: 0.11s ease-in-out;
+  border-radius: 0 0 5px 5px;
+}
+
+header.scrolled {
+  border-bottom: 1px solid #0360d952;
+  box-shadow: 2px 2px 15px #0360d964;
 }
 
 .navbar {
@@ -71,6 +78,28 @@ header {
   color: white;
   border: 1px solid #0360d9;
   background-color: #0360d9;
+}
+
+.login_btn:hover {
+  box-shadow: 0px 0px 7px #0360d97b;
+  transition: 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+
+.signup_btn:hover {
+  box-shadow: 0px 0px 7px #0360d97b;
+  transition: 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+
+.login_btn:active {
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+.signup_btn:active {
+    transform: scale(0.98);
+    box-shadow: none;
 }
 
 .active {
