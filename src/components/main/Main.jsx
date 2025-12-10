@@ -2,6 +2,9 @@ import "./main.css";
 import mainImg from "../../assets/mainImg.png";
 import mainImg2 from "../../assets/elipse.png";
 import vector from "../../assets/vaector.png";
+import { CiLocationOn } from "react-icons/ci";
+import { BsPerson, BsSearch } from "react-icons/bs";
+import { GiStethoscope } from "react-icons/gi";
 
 function Main() {
   return (
@@ -26,14 +29,33 @@ function Main() {
               </p>
 
               <form action="" className="main_form">
-                <option value="">
-                  <select name="name" id="">
-                    Doctor’s Name
+                <div className="form_box">
+                  <GiStethoscope className="icons" />
+                  <select value="">
+                    <option name="name" id="">
+                      Specialty
+                    </option>
                   </select>
-                  <select name="name" id="">
-                    Location
+                </div>
+                <div className="form_box">
+                  <BsPerson className="icons" />
+                  <select value="">
+                    <option name="name" id="">
+                      Doctor’s Name
+                    </option>
                   </select>
-                </option>
+                </div>
+                <div className="form_box">
+                  <CiLocationOn className="icons" />
+                  <select name="location" id="">
+                    <option name="location" id="">
+                      Location
+                    </option>
+                  </select>
+                </div>
+                <div className="search">
+                  <BsSearch />
+                </div>
               </form>
             </div>
             <div className="main_box_right">
