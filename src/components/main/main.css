@@ -1,0 +1,110 @@
+main {
+  background-color: #e1eeff;
+  margin-top: 87px;
+  position: relative;
+  height: 750px;
+}
+
+.blue {
+  background-color: #0360d9;
+  width: 100%;
+  position: absolute;
+  z-index: 200;
+  bottom: 0;
+}
+
+.texts_list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 49px;
+  padding: 15px 10px;
+}
+
+.main_box {
+  padding: 0 10px;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main_box_left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main_box_right {
+  height: 100%;
+  position: relative;
+}
+
+.main_box_left > h2 {
+  height: 100%;
+  font-size: 64px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -150px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top {
+  top: -20px;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+}
+
+.bottom {
+  bottom: 10px;
+  position: absolute;
+  right: -130px;
+}
+
+.favor {
+  color: #0360d9;
+}
+
+.vector {
+    transform: rotate(0.5deg);
+    margin-top: -13px;
+    margin-left: 30px;
+}
+
+.favor_box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.favor_el {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 42px;
+  border-right: 1px solid white
+}
+
+.texts > h3 {
+    font-size: 64px;
+    color: white;
+}
+
+.texts > p {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+}
