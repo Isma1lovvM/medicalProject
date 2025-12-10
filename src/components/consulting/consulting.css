@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.container h2 {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: start;
+  margin-bottom: 40px;
+}
+
+.consulting_div {
+  display: flex;
+  justify-content: center;
+}
+
+.consulting-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.consulting-card {
+  border: 1px solid #021526;
+  border-radius: 20px;
+  padding: 25px;
+  background: white;
+  transition: 0.3s;
+  width: 22%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.consulting-card:hover {
+  background-color: #0360D9;
+  color: white;
+}
+
+
+.consulting-card .icon {
+  width: 92px;
+  height: 92px;
+  background: #E6F5FC;
+  border-radius: 50%;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consulting-card h3 {
+  text-align: start;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #021526;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.consulting-card p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #163048;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 110%;
+  text-align: start;
+}

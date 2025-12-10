@@ -1,13 +1,16 @@
-import "./App.css";
-import Header from "./components/header/Header";
+import Consulting from "./components/consulting/Consulting";
+import ChooseUs from "./components/chooseus/ChooseUs";
+
+import './App.css'
 
 function App() {
+
   return (
     <>
-      <Header />
-      <h1>Salom</h1>
+    <Consulting />
+    <ChooseUs />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
