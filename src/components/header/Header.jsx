@@ -7,7 +7,6 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // 10px dan pastga tushganda "scrolled" true bo‘ladi
       setScrolled(window.scrollY > 10);
     };
 
