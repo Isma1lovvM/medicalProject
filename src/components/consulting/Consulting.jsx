@@ -10,7 +10,7 @@ function Consulting() {
     {
       title: "Covid-19 Test",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.",
-      icon: rasm1,
+      icon: rasm1,      
     },
     {
       title: "Heart Lungs",
@@ -31,7 +31,7 @@ function Consulting() {
 
   return (
     <div className="container">
-      <h2>Our Consulting Specialists</h2>
+      <h2 className='ws'>Our Consulting Specialists</h2>
       
       <div className='consulting_div'>
         <div className="consulting-wrapper">

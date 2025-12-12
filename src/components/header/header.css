@@ -10,8 +10,8 @@ header {
 }
 
 header.scrolled {
-  border-bottom: 1px solid #0360d952;
-  box-shadow: 2px 2px 15px #0360d964;
+  /* border-bottom: 1px solid #0360d952; */
+  box-shadow: 1px 1px 10px #0360d99d;
 }
 
 .navbar {

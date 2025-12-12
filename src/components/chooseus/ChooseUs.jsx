@@ -15,7 +15,7 @@ function ChooseUs() {
         <ul className="chooseus-list">
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> 
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
         </ul>
