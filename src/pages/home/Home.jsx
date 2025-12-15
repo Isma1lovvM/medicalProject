@@ -1,7 +1,7 @@
 import React from "react";
 import Main from "../../components/main/Main";
 import Consulting from "../../components/consulting/Consulting";
-import ChooseUs from "../../components/chooseus/ChooseUs";
+import ChooseUs from "../../components/chooseUs/ChooseUs";
 
 function Home() {
   return (
