@@ -22,7 +22,6 @@ main {
 }
 
 .main_box {
-  padding: 0 10px;
   display: flex;
   height: 700px;
   width: 100%;
